@@ -1,0 +1,91 @@
+main
+{
+    width: 100%;
+
+    padding-top: 150px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+main div.container
+{
+    transition: all .3s ease-in;
+
+    width: 60%;
+    min-height: 50vh;
+
+    border: 2px solid var(--border);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+
+    box-shadow: 
+                0 30px 60px rgba(0, 0, 0, 0.656);
+    
+    display: grid;
+    grid-template-areas: 
+                        "art art"
+                        "arti artic";
+
+    grid-gap: 20px 20px;
+}
+
+div.container:hover
+{
+    transform: scale(1.01);
+}
+
+main div.container article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 32px;
+
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid var(--border);
+
+    color: rgba(0, 0, 0, 0.659);
+
+    transition: .2s all ease-in;
+
+    background-color: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur(50px);
+
+  
+}
+
+main div.container article img
+{
+    max-width: 40%;
+    max-height: 40%;
+    border: 2px solid var(--border);
+}
+
+main div.container article:hover
+{
+    transform: scale(0.95);
+}
+
+
+#art
+{
+    grid-area: art;
+}
+
+#art2
+{
+    grid-area: arti;
+}
+
+#art3
+{
+    grid-area: artic;
+}
