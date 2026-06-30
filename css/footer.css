@@ -1,0 +1,62 @@
+footer
+{
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgba(255, 255, 255, 0.138);
+    backdrop-filter:  blur(15px);
+
+    box-shadow: 0 -20px 20px rgba(255, 255, 255, 0.062);
+}
+
+footer div.flex 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer .flex div
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0  0 20px 0;
+}
+
+footer button
+{
+    width: 100%;
+    height: 50%;
+    
+    border-radius: 16px;
+    border: 2px solid var(--border);
+
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.125) ;
+    color: white;
+
+    transition: all .1s ease-in;
+
+}
+
+footer button:hover
+{
+    transform: scale(1.3) translateY(-10px);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.265),
+                0 5px 20px  rgb(58, 58, 58);
+    border-radius: 8px;
+    
+}
