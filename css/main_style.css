@@ -72,6 +72,7 @@ main div.container article img
 main div.container article:hover
 {
     transform: scale(0.95);
+    
 }
 
 
@@ -89,3 +90,17 @@ main div.container article:hover
 {
     grid-area: artic;
 }
+
+main div.container article:nth-child(1):hover{
+    color: rgb(3, 255, 3);
+} 
+
+main div.container article:nth-child(2):hover{
+    color: rgb(255, 213, 3);
+} 
+main div.container article:nth-child(3):hover{
+    color: rgb(255, 3, 3);
+} 
+main div.container article:nth-child(4):hover{
+    color: rgb(255, 255, 255);
+} 

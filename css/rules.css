@@ -1,0 +1,83 @@
+.rulesBox
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.736);
+    z-index: 50;
+
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    transition: opacity .2s ease-in;
+    pointer-events: auto;
+
+    padding: 10px;
+
+}
+
+.rulesBox.hidden
+{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.rulesBox i
+{
+    font-size: 4rem;
+
+    color: rgba(255, 255, 255, 0.665);
+
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    cursor: pointer;
+}
+
+.rulesBox div.responseRules
+{
+    width: 60%;
+    min-height: 50vh;
+
+    border: 2px solid var(--border);
+
+    background-color: rgba(255, 255, 255, 0.106);
+    backdrop-filter: blur(10px);
+    border-radius: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+
+
+.rulesBox div.responseRules > *
+{ 
+    padding: 5px;
+    margin: 0 10px;
+    color: white;
+}
+
+.rulesBox div.responseRules ul li
+{
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.rulesBox div.responseRules hr
+{
+   margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.958);
+}

@@ -4,6 +4,13 @@
     Font-family: "IBM Plex Sans", sans-serif;
 }
 
+*::selection
+{
+    background-color: rgba(0, 255, 0, 0.794);
+    color: rgb(87, 87, 87);
+ 
+}
+
 body
 {
     margin: 0;

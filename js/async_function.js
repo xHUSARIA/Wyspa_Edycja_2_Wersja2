@@ -12,5 +12,13 @@ async function fillFooter(){
     document.querySelector('footer').innerHTML = text;
 }
 
+async function fillRulesBox(FileName) {
+    
+    const response = await fetch(FileName);
+    const text = await response.text();
+
+    responeRule.innerHTML = text;
+}
+
 fillNav();
 fillFooter();
