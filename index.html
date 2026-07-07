@@ -61,7 +61,6 @@
 
 </body>
 
-<script src="js/async_function.js"></script>
 <script src="js/copy.js"></script>
 
 <script>
@@ -74,6 +73,12 @@
     document.head.appendChild(link);
 }
 
+async function fillFooter(){
+    const response = await fetch("/html/footer.html");
+    const text = await response.text();
+
+    document.querySelector('footer').innerHTML = text;
+}
 
 </script>
 
