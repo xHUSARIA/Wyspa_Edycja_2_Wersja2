@@ -1,1 +1,2 @@
 fillNav();
+favicon();

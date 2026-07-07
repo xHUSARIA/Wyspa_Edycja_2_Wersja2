@@ -27,4 +27,3 @@ function favicon() {
     document.head.appendChild(link);
 }
 
-favicon();
