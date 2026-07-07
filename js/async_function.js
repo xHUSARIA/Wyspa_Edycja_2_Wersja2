@@ -20,5 +20,5 @@ async function fillRulesBox(FileName) {
     responeRule.innerHTML = text;
 }
 
-fillNav();
+
 fillFooter();
