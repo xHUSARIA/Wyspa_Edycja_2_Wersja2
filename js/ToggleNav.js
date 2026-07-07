@@ -16,3 +16,15 @@ function toggleNav(){
 }
 
 toggler.addEventListener("click",toggleNav)
+
+
+function favicon() {
+    const link = document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/x-icon";
+    link.href = "../images/favicon.jpg";
+
+    document.head.appendChild(link);
+}
+
+favicon();

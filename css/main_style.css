@@ -73,6 +73,12 @@ main div.container article:hover
 {
     transform: scale(0.95);
     
+    
+}
+
+main.zasady div.container article:hover
+{
+    cursor: pointer;
 }
 
 
@@ -104,3 +110,13 @@ main div.container article:nth-child(3):hover{
 main div.container article:nth-child(4):hover{
     color: rgb(255, 255, 255);
 } 
+
+
+main iframe
+{
+    min-width: 60%;
+    min-height: 800px;
+
+    border-radius: 32px;
+    border: 2px solid var(--border);
+}
