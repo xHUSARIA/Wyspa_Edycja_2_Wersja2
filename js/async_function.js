@@ -20,5 +20,6 @@ async function fillRulesBox(FileName) {
     responeRule.innerHTML = text;
 }
 
-
+fillNav();
+favicon();
 fillFooter();

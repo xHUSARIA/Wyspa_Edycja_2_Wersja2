@@ -1,2 +1,0 @@
-fillNav();
-favicon();
